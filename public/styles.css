@@ -1,0 +1,53 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: white;
+    font: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1,
+.container2 {
+    max-width: 50%;
+}
+
+#displayYears {
+    text-align: center;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background: rgb(55, 158, 199);
+    color: black;
+    border-radius: 5%;
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.information .yearValue {
+    min-height: 20px;
+    list-style-type: none;
+    border: 1px solid grey;
+    /* background: black; */
+    color: black;
+    text-transform: uppercase;
+    text-align: justify;
+    /* display: inline; */
+    padding: 20px;
+    margin: 10px;
+}
+
+.information .yearValue .teamValue {
+    max-height: 300px;
+    padding: 10px;
+    overflow: scroll;
+}
